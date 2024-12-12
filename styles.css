@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center; 
+    background: url('Social-Advocacy-Updated.jpg') no-repeat center center fixed;
+    background-size: cover; 
+
+header {
+    background: rgba(255, 0, 0, 0.9); 
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+}
+
+header:hover {
+    background: rgba(139, 0, 0, 0.9); 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #FFD700; 
+}
+
+main {
+    padding: 2rem;
+    background: rgba(249, 249, 249, 0.8);
+}
+
+h1 {
+    font-size: 2.5rem; 
+    color: #8A2BE2; 
+}
+
+p {
+    font-size: 15px;
+}
+
+footer {
+    background: rgba(255, 105, 180, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.3s ease; 
+}
+
+footer:hover {
+    background: rgba(255, 20, 147, 0.9);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    border: 2px solid #FF69B4;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+.advocacy h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.advocacy p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.advocacy ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block; 
+}
+
+.advocacy ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+}
